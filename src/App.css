@@ -1,0 +1,58 @@
+.app-container{
+    display: flex;
+}
+
+.content{
+    width: 100%;
+}
+
+.sidebar{
+    min-height: 599px;
+}
+
+.side_bar{
+    color: rgba(0, 255, 221, 0.733);
+}
+
+.PostList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-card{
+    margin: 20px 50px;
+    min-width: 30rem;
+}
+.image img{
+    width: 95%;
+    height: 250px;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.hashtag{
+    margin: 0px 3px;
+}
+
+.reaction{
+    margin: 10px;
+    padding: 5px;
+    width: 75px;
+}
+
+.create-post{   
+     border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.create-post input{
+    border: 2px solid black;
+}
+
+.create-post textarea{
+    border: 2px solid black;
+}
